@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed&display=swap" rel="stylesheet">
+  <title>SearchIt</title>
+</head>
+
+<body>
+  <section>
+    <section class="main">
+      <!-- <p id="demo"></p> -->
+      <section class="search-box">
+        <h1>search<span>IT</span></h1>
+        <form id="myForm">
+          <input type="search" name="search" id="search" placeholder="Enter City or State" class="search">
+          <!-- <button>Search</button> -->
+          <i class="fas fa-search" type="submit"></i>
+        </form>
+      </section>
+      <section class="results">
+        <div class="loader" id="loader"></div>
+        <p id="state">no results</p>
+      </section>
+      <section id="myModal" class="modal">
+        <section class="modal-content">
+          <span class="close">&times;</span>
+          <ul>
+            <li><span class="word">City:</span><span id="city">Newark</span></li>
+            <li><span class="word">State:</span> New Jersey</li>
+            <li><span class="word">population:</span> 278427</li>
+            <li><span class="word">Growth:</span><span class="growth"> 2.1%</span</li>
+          </ul>
+         </section>
+       </section>
+     </section>
+   </section>
+<script src="main.js"></script>
+</body>
+
+</html>
